@@ -1,0 +1,14 @@
+﻿INSERT INTO `tipo_usu` (`cod_tipo_usu`, `nome_tipo_usu`) VALUES (NULL, 'Administrador'), (NULL, 'Funcionário');
+
+
+INSERT INTO `usuarios` (`cod_usu`, `cpf_usu`, `nome_usu`, `login_usu`, `senha_usu`, `tipo_usu_cod_tipo_usu`) VALUES (NULL, '00000000099', 'Super Mojna', 'Mojna', '1', '1');
+
+
+INSERT INTO `marca` (`cod_marca`, `nome_marca`) VALUES (NULL, 'Acte'), (NULL, 'Adidas'), (NULL, 'Atama'),(NULL, 'Best Defense'),(NULL, 'Clube da Luta'), (NULL, 'Daedo'), (NULL, 'Dunas'), (NULL, 'Everlast'),(NULL, 'Fheras'), (NULL, 'Gonew'), (NULL, 'Jaco'), (NULL, 'Knocknout'),(NULL, 'Mantis'),(NULL, 'MKS'),(NULL, 'Neoprene'), (NULL, 'Pretorian'), (NULL, 'Punch'),(NULL, 'Realtex'), (NULL, 'Sculpture'), (NULL, 'Seishin'),(NULL, 'Sulsport'), (NULL, 'Throwdown'), (NULL, 'Torah'), (NULL, 'Venum'),(NULL, 'Vollo');
+
+
+INSERT INTO `tamanho` (`cod_tam`, `nome_tam`) VALUES (NULL, 'Sem Tamanho'),(NULL, '37'),(NULL, '38'),(NULL, '39'),(NULL, '40'),(NULL, '41'),(NULL, '42'),(NULL, '43'),(NULL, 'A1'),(NULL, 'A2'),(NULL, 'A3'),(NULL, 'A4'),(NULL, 'P'),(NULL, 'M'),(NULL, 'G'),(NULL, 'GG'),(NULL, 'EGG');
+
+
+INSERT INTO `tipo_pro` (`cod_tipo_pro`, `nome_tipo_pro`) VALUES (NULL, ' Bermudas '),(NULL, ' Botas '),(NULL, 'Camisas '),(NULL, ' Corda '),(NULL, ' Faixas '),(NULL, ' Kimonos de Jiu-Jitsu '),(NULL, ' Kimonos de Judô '),(NULL, ' Kimonos de Karatê '),(NULL, ' Kimonos de Taekwondo '),(NULL, ' Luvas Bandagem/Gel '),(NULL, ' Luvas de Boxe '),(NULL, ' Luvas de Karatê '),(NULL, ' Luvas de MMA '),(NULL, ' Luvas de Taekwondo '),(NULL, ' Protetor Bucal '),(NULL, ' Protetor de Antebraço '),(NULL, ' Protetor de Cabeça '),(NULL, ' Protetor de Joelheira '),(NULL, ' Protetor de Tornozeleira '),(NULL, ' Punchin Ball '),(NULL, ' Saco de Pancada '),(NULL, ' Sapatilhas ');
+
