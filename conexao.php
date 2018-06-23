@@ -1,10 +1,12 @@
 ﻿<?php 
-    error_reporting (E_ALL & ~ E_NOTICE & ~ E_DEPRECATED);
-	
-	mysql_connect ("localhost", "root", "") or 
-die ("Não foi possível conectar no servidor de Banco de dados");
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
 
-    mysql_select_db("balcao") or
-die("Não foi possível encontrar o BD");
+    $conn = new mysqli($servername, $username, $password);
 
+    if ($conn->connect_error) {
+        die("Não foi possível conectar no servidor de Banco de dados: " . $conn->connect_error);
+    }
+    echo "Connected successfully";
 ?>	
